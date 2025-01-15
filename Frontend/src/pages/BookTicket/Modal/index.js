@@ -13,7 +13,6 @@ import {
 } from "../../../reducers/constants/BookTicket";
 import { LOADING_BACKTO_HOME } from "../../../reducers/constants/Lazy";
 import { getListSeat } from "../../../reducers/actions/BookTicket";
-import { colorTheater } from "../../../constants/theaterData";
 import ResultBookTicket from "../../BookTicket/ResultBookticket";
 
 export default function Modal() {

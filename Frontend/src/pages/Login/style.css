@@ -1,11 +1,12 @@
 
 .ftco-section{
-    background-image: url("./bgAuth.jpg");
+    background: url("https://img.freepik.com/free-photo/particle-lines-futuristic-network-background_53876-129729.jpg?t=st=1736922511~exp=1736926111~hmac=f968ac4f661b000afc40c2a0899c6ca898b7c19a3751e8d3d527a6dd79bb6cdb&w=1380"), no-repeat, fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
 }
 .ftco-section img{
-    width: 80%;
-    margin-bottom: 20px;
+    width: 100%;
 }
 .ftco-section .img{
     display: flex;
@@ -13,7 +14,7 @@
     justify-content: center;
 }
 .wrap {
-margin-top: 300px;
+margin-top: 150px;
 }
 .dk{
     text-align: end;

@@ -106,7 +106,7 @@ export default function Header() {
       <div className="container">
         <a className="navbar-brand" href="/" onClick={handleClickLogo}>
           <img
-            src="https://t3.ftcdn.net/jpg/04/66/39/50/360_F_466395040_mj2YjwJe0qLlRXQk51kg0q8Jw9AwJp5r.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJujRGeoaWZpJ5iBMWsLvKKcfUTBMb4SpRWA&s"
             alt="logo"
             style={{ height: 50 }}
           />

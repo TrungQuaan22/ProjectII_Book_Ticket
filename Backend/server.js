@@ -72,10 +72,9 @@ app.get("/api/create_payment_url", function (req, res, next) {
     req.connection.socket.remoteAddress;
 
   let config = require("config");
+  console.log("DATA CREATE URL: ", req.query);
 
-  const { amount, maLichChieu, danhSachVe, taiKhoanNguoiDung } = JSON.parse(
-    req.query.amount
-  );
+  const { amount, maLichChieu, taiKhoanNguoiDung, danhSachVe } = req.query;
   let tmnCode = config.get("vnp_TmnCode");
   let secretKey = config.get("vnp_HashSecret");
   let vnpUrl = config.get("vnp_Url");
